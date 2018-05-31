@@ -2,7 +2,7 @@ header {
   background-image: url("https://1.bp.blogspot.com/-pPZUsF-3P1A/V6JckiFERWI/AAAAAAAAF8o/undIg9qCXOgNgD7dDBz9uPzIzDk-hYdEQCLcB/s1600/grimes-cover-tout-new.jpg") ;
   background-size: cover;
   height: 100vh;
-  
+  max-width: 100%;
 }
 
 h1{
@@ -14,6 +14,13 @@ h1{
     padding: 156px 0 100px;
   }
 }
+
+@media (max-width: 460px) {
+  table {
+    font-size: 0.6em !important;
+  }
+}
+
 
 section {
   padding: 150px 0;
@@ -28,3 +35,4 @@ section {
     color:#000  !important;
    
 }
+
