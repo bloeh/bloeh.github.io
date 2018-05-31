@@ -1,0 +1,30 @@
+header {
+  background-image: url("https://1.bp.blogspot.com/-pPZUsF-3P1A/V6JckiFERWI/AAAAAAAAF8o/undIg9qCXOgNgD7dDBz9uPzIzDk-hYdEQCLcB/s1600/grimes-cover-tout-new.jpg") ;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+h1{
+	font-family: 'Rock Salt', cursive;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+.nav{
+    background-color: rgba(0,0,0,0) !important;
+    color:#000  !important;
+   
+}
+.nav-black{
+    background-color: rgba(0,0,0,1) !important;
+    color:#000  !important;
+   
+}
